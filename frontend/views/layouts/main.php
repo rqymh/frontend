@@ -33,13 +33,16 @@ AppAsset::register($this);
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
-        ],
+        ], 
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'Penerimaan', 'url' => ['/penerimaan/index']],
         ['label' => 'Prodi', 'url' => ['/prodi/index']],
+        ['label' => 'Akademik', 'url' => ['/akademik/index']],
+        ['label' => 'Kemahasiswaan', 'url' => ['/kemahasiswaan/index']],
+        ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
