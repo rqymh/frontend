@@ -77,7 +77,15 @@ class SiteController extends Controller
 
     public function actionSalam()
     {
-        return $this->render('salam');
+        $ucapan = "Assalamu'alaikum";
+        $nama = "Biah";
+        $umur = 17;
+
+        return $this->render('salam', [
+            'ucapanSalam' => $ucapan,
+            'seseorang' => $nama,
+            'kamu' => $umur,
+        ]);
     }
 
     /**

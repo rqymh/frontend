@@ -9,7 +9,9 @@
 					Penerimaan Mahasiswa Baru TA 2019/2020
 				</h2>
 				<p>
-					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+					Note:
+
+					Bagi siswa/i yang berasal SMA (Sekolah Menengah Atas) yang sudah mendapatkan sertifikasi A Level atau sudah mendapatkan surat penyetaraan dari Departemen Pendidikan Nasional dapat mengikuti ujian seleksi tanpa harus mengikuti UAN (Ujian Akhir Nasional).Selain ijasah kelulusan sekolah melalui Ujian Nasional (UN), SIMAK UI juga menerima ijasah Paket C, sertifikat A Level, dan IB Diploma.
 				</p>
 				<p>
 					<a class="btn btn-primary btn-large" href="#">Learn more</a>
