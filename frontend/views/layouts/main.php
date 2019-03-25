@@ -42,6 +42,7 @@ AppAsset::register($this);
         ['label' => 'Prodi', 'url' => ['/prodi/index']],
         ['label' => 'Akademik', 'url' => ['/akademik/index']],
         ['label' => 'Kemahasiswaan', 'url' => ['/kemahasiswaan/index']],
+        ['label' => 'Dosen', 'url' => ['/dosen/index']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {

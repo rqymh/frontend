@@ -1,6 +1,7 @@
 <?php
 
 namespace frontend\controllers;
+use frontend\models\NilaiSiswa;
 
 class KemahasiswaanController extends \yii\web\Controller
 {
@@ -9,15 +10,15 @@ class KemahasiswaanController extends \yii\web\Controller
     	$mhs1 = "Silmi Rizqi Ramadhani";
     	$mhs2 = "Farah Shofiyah";
     	$mhs3 = "Robi'ah Qoyimah";
-    	$mhs4 = "Hera Karmila";
-    	$mhs5 = "Nabilah Fajar Utami";
+    	$mhs4 = "Syifa Tazkiy Fauziyah";
+    	$mhs5 = "Nirmawati";
 
     	$prodi1 = 'Sistem Informasi';
     	$prodi2 = 'Teknik Informatika';
 
     	$smt4 = '4';
-    	$smt5 = '5';
     	$smt6 = '6';
+    	$smt8 = '8';
 
         return $this->render('index',[
         	'si' => $prodi1,
@@ -28,9 +29,17 @@ class KemahasiswaanController extends \yii\web\Controller
         	'mhs4' => $mhs4,
         	'mhs5' => $mhs5,
         	'smt4' => $smt4,
-        	'smt5' => $smt5,
-        	'smt6' => $smt6
+        	'smt6' => $smt6,
+        	'smt8' => $smt8
         ]);
     }
 
+    public function actionNilai() {
+    	$mhs1 = new NilaiSiswa("0110117009", "Farah Shofiyah");
+    	$mhs1->nilai = 84.1;
+    	return $this -> render ('nilai',
+    	[
+    		'mhs1' => $mhs1,
+    	]);
+    }
 }

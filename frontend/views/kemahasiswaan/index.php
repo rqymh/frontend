@@ -28,7 +28,7 @@
 					<td>3</td>
 					<td> <?=$mhs3?> </td>
 					<td> <?=$si?> </td>
-					<td> <?=$smt5?> </td>
+					<td> <?=$smt4?> </td>
 				</tr>
 				<tr>
 					<td>4</td>
@@ -40,7 +40,7 @@
 					<td>5</td>
 					<td> <?=$mhs5?> </td>
 					<td> <?=$ti?> </td>
-					<td> <?=$smt4?> </td>
+					<td> <?=$smt8?> </td>
 				</tr>
 			</tbody>
 		</table>
